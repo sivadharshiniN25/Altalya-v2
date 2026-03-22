@@ -2,10 +2,12 @@ import { defineConfig } from "tinacms";
 
 export default defineConfig({
   branch: "main",
+
   build: {
     publicFolder: "public",
     outputFolder: "admin",
   },
+
   schema: {
     collections: [
       {
@@ -29,6 +31,7 @@ export default defineConfig({
           },
         ],
       },
+
       {
         name: "testimonials",
         label: "Testimonials",
