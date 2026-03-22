@@ -1,0 +1,16 @@
+{
+  "testimonials": [
+    {
+      "name": "Mohan Raj",
+      "review": "Altalya's full-stack development course was a game changer for me. With hands-on training and real-world projects, I landed a job at Absolute labs, Chennai even before course completion!"
+    },
+    {
+      "name": "Swetha",
+      "review": "I have taken a course in coding with Apollo and I really thought coding is really hard after it. I don't want to get into coding one more again and after the introductory class I was really excited. I two weeks i actually solved many coding problems myself without any help. Whether you enjoy coding or or you hate it, it does depend a lot on who teaches you"
+    },
+    {
+      "name": "Suresh kannan",
+      "review": "The online class has been truly fantastic, with the instructor being incredibly patient and promptly addressing any doubts. I thoroughly enjoyed the session, although unfortunately, I couldn't attend the last day of the class. I sincerely appreciate the effort put into organizing such a valuable class"
+    }
+  ]
+}
