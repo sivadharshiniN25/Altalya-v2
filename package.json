@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
     "@tinacms/cli": "^2.1.11",
     "@tinacms/datalayer": "^2.0.12",
     "@tinacms/graphql": "^2.2.0",

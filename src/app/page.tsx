@@ -29,7 +29,7 @@ export default function Home() {
         <Hero data={siteData} />
       </section>
 
-      <section id="about">
+      <section id="about" className="py-16 md:py-24">
         <About data={siteData} />
       </section>
 

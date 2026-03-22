@@ -38,7 +38,7 @@ export default function PopularCourses() {
                 className="cursor-pointer relative p-[1px] rounded-2xl bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 hover:shadow-[0_0_30px_rgba(168,85,247,0.5)] transition duration-300 hover:-translate-y-2 hover:scale-105"
               >
 
-                <div className="bg-black/60 rounded-2xl p-6 h-full">
+                <div className="bg-black/60 backdrop-blur-md rounded-2xl p-6 h-full flex flex-col justify-between min-h-[260px]">
 
                   <img
                     src={course.image}
@@ -49,7 +49,7 @@ export default function PopularCourses() {
                     {course.title}
                   </h3>
 
-                  <p className="text-gray-400 text-sm">
+                  <p className="text-gray-400 text-sm line-clamp-3">
                     Explore course details
                   </p>
 

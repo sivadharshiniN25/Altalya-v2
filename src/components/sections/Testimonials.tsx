@@ -54,7 +54,7 @@ export default function Testimonials({ data }: TestimonialsProps) {
           animate="show"
         >
           <motion.div
-            className="flex gap-8 w-50 h-50 "
+            className="flex gap-8 "
             animate={isHovered ? { x: 0 } : { x: ["0%", "-50%"] }}
             transition={{
               duration: 30,
@@ -70,7 +70,7 @@ export default function Testimonials({ data }: TestimonialsProps) {
               <motion.div
                 key={i}
                 variants={card}
-                className="min-w-[300px] bg-black/60 p-6 rounded-xl"
+                className="min-w-[280px] max-w-sm bg-black/60 p-6 rounded-xl h-auto flex flex-col"
               >
                 <p className="text-gray-300 mb-4">
                   "{t.review}"
